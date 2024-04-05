@@ -1,0 +1,40 @@
+/* Modules */
+@import './variables';
+@import './general';
+
+/* Components */
+@import './components/animations';
+@import './components/header';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap');
+
+/* Pages */
+@import './pages/home';
+@import './pages/board';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Blinker', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+}
+
+#app {
+    min-height: 100vh;
+    // background-color: yellow;
+    background-image: url(https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1152/9b864f7d67d9908ba783456b21359037/photo-1619266465172-02a857c3556d.jpg);
+
+}
+
+.view {
+    padding: 1rem 2rem;
+    height: auto;
+}
